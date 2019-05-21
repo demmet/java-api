@@ -6,7 +6,7 @@ plugins {
 apply plugin: 'io.spring.dependency-management'
 
 group = 'certus-api'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.1'
 sourceCompatibility = '1.8'
 
 repositories {
@@ -17,4 +17,5 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	compile 'org.json:json:20171018'
+	compile 'org.ini4j:ini4j:0.5.4'
 }
